@@ -1,0 +1,81 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+	background-color: #5E482F;
+}
+
+#container {
+	width: 100%;
+}
+
+#labelsSystem {
+	width: 1000px;
+	height: 60px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#displaySystem {
+	width: 1000px;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+.monthLabel {
+	display: inline-block;
+	font-size: 25px;
+	padding: 20px;
+	width: 260px;
+	height: 40px;
+	background-color: #E3CDB6;
+	text-align: center;
+}
+
+#displaySystem {
+	margin-top: 40px;
+}
+
+.monthMainDisplay {
+	display: inline-block;
+	background-color: #E3CDB6;
+	height: 600px;
+	padding: 20px;
+	width: 260px;
+}
+
+img {
+	width: 260px;
+	height: auto;
+}
+
+#pMonthLabel, #cMonthLabel, #nMonthLabel {
+	background-color: #AB8255;
+	width: 220px;
+	padding: 20px;
+	text-align: center;
+	font-size: 200%;
+}
+
+.daysContainer {
+	margin-top: 10px;
+	width: 220px;
+	padding: 20px;
+	height: 300px;
+	background-color: #AB8255;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 4px 4px;
+}
+
+.p, .c, .n {
+	width: 30px;
+	height: 20px;
+	background-color: #E3CDB6;
+	text-align: center;
+	border: 2px solid black;
+}
